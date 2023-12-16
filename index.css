@@ -1,0 +1,512 @@
+.container {
+    width: 88%;
+    height: auto;
+    /* border:2px solid black; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #F3E9DD;
+}
+
+@media screen and (max-width:399px) {
+    .container {
+        text-align: center;
+        width: 95%;
+        height: auto;
+        align-items: center;
+        /* border:2px solid black; */
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        background-color: #F3E9DD;
+    }
+}
+
+body {
+    background-color: #F4DFBA;
+}
+
+.onetwohead {
+    display: flex;
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width:799px) {
+    .onetwohead {
+        display: flex;
+        flex-direction: column;
+        width: 88%;
+        height: 800px;
+        background-color: #F3E9DD;
+    }
+}
+
+.top {
+    width: 100%;
+    height: 60px;
+    background-color: #C8C2BC;
+}
+
+.one {
+    width: 100%;
+    height: 450px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #CC9B6D;
+    margin-top: 20px;
+    margin-left: auto;
+    align-items: center;
+
+}
+
+.two {
+    width: 100%;
+    height: 450px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #d6834f;
+    margin-top: 20px;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+/* @media screen and (max-width:300){
+    .one{
+        width:10%;
+        height:500px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+}
+@media screen and (max-width:300){
+    .two{
+        width:100%;
+        height:500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+} */
+#pallavi {
+    color: #606C5D;
+    padding: 10px;
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Smooch', cursive;
+}
+
+#image1 {
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* .bgvideo{
+    position: absolute;
+    right:0;
+    z-index:-1;
+    bottom: 0;
+}
+@media(min-aspect-rario:16/9){
+    .bgvideo{
+        width:100%;
+        height:auto;
+    }
+} */
+#heading2 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+}
+
+#para1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    width: 300px;
+    font-family: 'Tangerine', cursive;
+    /* font-family: 'Sacramento', cursive; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.anchor {
+    text-decoration: none;
+    color: #F4F2DE;
+    font-size: 20px;
+    margin-top: 0%;
+    margin: 10px;
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    overflow: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-family: 'Tangerine', cursive; */
+    justify-content: space-between;
+}
+
+.anchor:hover {
+    color: greenyellow;
+    border: 1px solid black;
+}
+
+.anchortags {
+    text-align: center;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+.aboutme {
+    width: 88%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #DED0B6;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#para2 {
+    font-size: 20px;
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#heading3 {
+    color: #776B5D;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+#heading4 {
+    text-align: center;
+    color: #445D48;
+}
+
+#linkedinid {
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#linkedinid:hover {
+    border-radius: 20px;
+    color: rgb(26, 14, 14);
+    background-color: yellow;
+}
+
+.linkedin {
+    text-align: center;
+    text-decoration: none;
+    width: 88%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #C1D8C3;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+@media screen and (max-width:799px) {
+    .linkedin {
+        display: flex;
+        flex-direction: column;
+        width: 88%;
+        height: 400px;
+        background-color: #99B080;
+        /* margin-top: 30px; */
+    }
+}
+
+@media screen and (max-width:699px) {
+    .linkedin {
+        display: flex;
+        flex-direction: column;
+        width: 88%;
+        height: 500px;
+        background-color: #99B080;
+        /* margin-top: 30px; */
+    }
+}
+
+#para4 {
+    font-size: 20px;
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.linkedinbtn {
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: larger;
+    border-radius: 20px;
+}
+
+.resume {
+    text-align: center;
+    text-decoration: none;
+    width: 88%;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #EDB7ED;
+    box-shadow: rgba(61, 61, 175, 0.2) 0px 7px 29px 0px;
+}
+
+#heading5 {
+    color: #B0578D;
+}
+
+.pro {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    text-decoration: none;
+    width: 88%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    background-color: #A2C579;
+    box-shadow: rgba(61, 61, 175, 0.2) 0px 7px 29px 0px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    width: 88%;
+    height: 500px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #D2DE32;
+    box-shadow: rgba(61, 61, 175, 0.2) 0px 7px 29px 0px;
+}
+
+#login {
+    margin-top: 50px;
+}
+
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #C69774;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
+
+@media screen and (max-width:399px) {
+    .pallavi {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:499px) {
+    .container {
+        text-align: center;
+        width: 95%;
+        height: auto;
+        align-items: center;
+        /* border:2px solid black; */
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        background-color: #F3E9DD;
+    }
+    #para1 {
+        font-size: 20px;
+        width: 80%;
+    }
+
+    #image1 {
+        height: 70px;
+        width: 70px
+    }
+
+    #heading2 {
+        font-size: 20px;
+    }
+
+    #pallavi {
+        font-size: 20px;
+    }
+
+    .one {
+        height: 220px;
+    }
+
+    .two {
+        display: flex;
+        flex-direction: column;
+        height: 220px;
+        font-size: 20px;
+    }
+
+    .anchor {
+        text-decoration: none;
+        color: #F4F2DE;
+        font-size: 10px;
+        margin-top: 0%;
+        margin: 5px;
+        padding: 3px;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        overflow: hidden;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        /* font-family: 'Tangerine', cursive; */
+        justify-content: space-between;
+    }
+
+    .anchortags {
+        font-size: 10px;
+        text-align: center;
+        width:80px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .onetwohead {
+        display: flex;
+        flex-direction: column;
+        width: 88%;
+        height: 500px;
+        background-color: #F3E9DD;
+    }
+    .aboutme {
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        width: 88%;
+        height: 310px;
+        background-color: #DED0B6;
+        /* margin-top: 10px; */
+    }
+    #heading3 {
+        color: #776B5D;
+        margin-top: 10px;
+        text-align: center;
+    }
+    #para2 {
+        font-size: 10px;
+        text-align: center;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .linkedin {
+        display: flex;
+        flex-direction: column;
+        width: 88%;
+        height: 350px;
+        background-color: #99B080;
+        /* margin-top: 30px; */
+    }
+    #para4 {
+        font-size: 10px;
+        text-align: center;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #heading5 {
+        margin-top: 0px;
+        font-size: 20px;
+        color: #B0578D;
+    }
+    .resume {
+        font-size: 10px;
+        text-align: center;
+        text-decoration: none;
+        width: 88%;
+        height: 120px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #EDB7ED;
+        box-shadow: rgba(61, 61, 175, 0.2) 0px 7px 29px 0px;
+    }
+    .projects {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-around; */
+        text-align: center;
+        width: 88%;
+        height: 900px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #D2DE32;
+        box-shadow: rgba(61, 61, 175, 0.2) 0px 7px 29px 0px;
+    }
+    .pro {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-around; */
+        text-align: center;
+        text-decoration: none;
+        width: 65%;
+        height: 800px;
+        padding:20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        background-color: #A2C579;
+        box-shadow: rgba(61, 61, 175, 0.2) 0px 7px 29px 0px;
+    }
+    .boxex {
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        height:150px;
+        padding:10px;
+        margin-top: 20px;
+        background-color: #B6BBC4;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    .heading6{
+        margin-top: 10px;
+    }
+    #login {
+        margin-top:20px;
+    }
+    .video{
+        height:100px;
+        width:100px;
+    }
+    
+    
+
+    
+}
+
+
+
+
